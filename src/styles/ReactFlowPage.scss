@@ -1,0 +1,32 @@
+.react-flow-wrapper {
+  width: 100vw;
+  height: 100vh;
+  
+  .react-flow__node {
+    padding: 10px;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #ddd;
+    
+    &.selected {
+      border-color: #1a192b;
+    }
+  }
+}
+
+.location-node {
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ddd;
+  
+  .node-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  &:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+} 
